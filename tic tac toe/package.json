@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Raj and Simran are getting married. They decided to bend the rules and have an HTML page as a marriage certificate. The only problem is that there is a paragraph in the marriage certificate that Raj thinks is useless and wants to hide from the document whereas Simran wants to show the paragraph.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "start": "node server.js"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "index.js": "0.0.3",
+    "jest": "^26.6.3",
+    "jsdom": "^16.5.3",
+    "supertest": "^6.1.3"
+  }
+}
